@@ -2,14 +2,15 @@ package br.com.ifsolutions.view;
 
 import br.com.ifsolutions.controller.ReportController;
 import br.com.ifsolutions.entity.Produtos;
+import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 
 import javax.swing.*;
-import javax.swing.event.RowSorterListener;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -85,15 +86,20 @@ public class TagAvulso {
     }
 
     public void printAvulso(Integer rowId, TableModel model){
-        String codeProduct = (String) model.getValueAt(rowId, 0);
-        String nameProduct = (String) model.getValueAt(rowId, 1);
-        //Map<String, String> map = new HashMap<>();
-        HashMap<String, String> map = new HashMap<>();
 
-        map.put("CODE", codeProduct);
-        map.put("TITLE", nameProduct);
+        Produtos produtos = new Produtos();
+
+        produtos.setCodigo((String) model.getValueAt(rowId, 0));
+        produtos.setNome((String) model.getValueAt(rowId, 1));
+
+        List<Produtos> listProdutos = new ArrayList<Produtos>();
+        listProdutos.add(produtos);
+
+        JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(listProdutos);
+        HashMap<String, Object> parameters = new HashMap<String, Object>();
+        parameters.put("ETIQUETA", dataSource);
 
         ReportController reportController = new ReportController();
-        reportController.reportGenerate("/home/higor/JaspersoftWorkspace/MyReports/avulso.jasper", map);
+        reportController.reportGenerate("C:\\Users\\DEV01\\JaspersoftWorkspace\\MyReports\\avulso.jasper", parameters);
     }
 }

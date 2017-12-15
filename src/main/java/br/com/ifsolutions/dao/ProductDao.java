@@ -14,7 +14,7 @@ public class ProductDao{
         ResultSet rs = null;
         try {
             Class.forName("org.firebirdsql.jdbc.FBDriver");
-            String url = "jdbc:firebirdsql:localhost/3050:/home/higor/CPLUS.FDB";
+            String url = "jdbc:firebirdsql:localhost/3050:c:/CPLUS.FDB";
             conn = DriverManager.getConnection(url, "sysdba", "masterkey");
 
             stmt = conn.createStatement();
