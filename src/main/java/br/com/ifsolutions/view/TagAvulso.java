@@ -1,6 +1,7 @@
 package br.com.ifsolutions.view;
 
 import br.com.ifsolutions.controller.ReportController;
+import br.com.ifsolutions.dao.ProductDao;
 import br.com.ifsolutions.entity.Produtos;
 import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 
@@ -89,13 +90,23 @@ public class TagAvulso {
 
         Produtos produtos = new Produtos();
 
-        produtos.setCodigo((String) model.getValueAt(rowId, 0));
-        produtos.setNome((String) model.getValueAt(rowId, 1));
+        String codProd = (String) model.getValueAt(rowId, 0);
+        ProductDao dao = new ProductDao();
+        ArrayList<Produtos> produto = dao.listByCodProduto(codProd);
 
-        List<Produtos> listProdutos = new ArrayList<Produtos>();
-        listProdutos.add(produtos);
+        if(produto.get(0).getQuantidade() == null){
+            JFrame frame = new JFrame("InputDialog Example #2");
+            String quantidade = JOptionPane.showInputDialog(
+                    frame,
+                    "Quantidade para o item",
+                    "Selecione a quantidade",
+                    JOptionPane.WARNING_MESSAGE
+            );
+            // if the user presses Cancel, this will be null
+            produto.get(0).setQuantidade(quantidade);
+        }
 
-        JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(listProdutos);
+        JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(produto);
         HashMap<String, Object> parameters = new HashMap<String, Object>();
         parameters.put("ETIQUETA", dataSource);
 

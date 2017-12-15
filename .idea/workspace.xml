@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tagGenerator:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d334f265-382e-410c-8361-8be299c47d8f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/C:/tagGenerator/tagGenerator.sqlite" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/tagGenerator_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/controller/ReportController.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/controller/ReportController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/dao/ProductDao.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/dao/ProductDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulso$1.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulso$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulso$2.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulso$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulso$3.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulso$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulso.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulso.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/ReportController.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/ReportController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ProductDao.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ProductDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulso.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulso.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,61 +31,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TagAvulso.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulso.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="104" column="1" lean-forward="true" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2824#3101#0" expanded="true" />
-                <element signature="e#3100#3101#0" expanded="true" />
-                <element signature="e#3399#3409#0" expanded="true" />
-                <element signature="e#3600#3616#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReportController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/ReportController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Produtos.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/entity/Produtos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="27" />
-              <folding>
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ProductDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-              <folding>
-                <marker date="1513333835285" expanded="true" signature="697:1138" ph="SELECT PROD.... PRODUTO" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,6 +44,7 @@
     <findStrings>
       <find>sc</find>
       <find>coll</find>
+      <find>main</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -114,11 +78,11 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.form" />
         <option value="$MAVEN_REPOSITORY$/jasperreports/jasperreports/3.5.3/jasperreports-3.5.3.jar!/net/sf/jasperreports/engine/JasperFillManager.class" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/ReportController.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulso.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/ReportController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -189,57 +153,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ifsolutions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tagGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tagGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ifsolutions" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tagGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tagGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ifsolutions" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tagGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tagGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ifsolutions" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tagGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tagGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ifsolutions" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tagGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tagGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tagGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tagGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -253,7 +166,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propGUI" />
@@ -408,11 +321,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85906000" />
+    <option name="totallyTimeSpent" value="97920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -421,15 +333,15 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32506528" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32506528" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -478,12 +390,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/ReportController.java</url>
-          <line>26</line>
+          <line>22</line>
           <properties />
           <option name="timeStamp" value="69" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="70" />
+      <option name="time" value="72" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -527,35 +439,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2145#2146#0" expanded="true" />
-            <element signature="e#2178#2179#0" expanded="true" />
-            <marker date="1513333695133" expanded="true" signature="1850:1876" ph="{...}" />
-            <marker date="1513333695133" expanded="false" signature="1852:1866" ph=" }" />
-            <marker date="1513333695133" expanded="true" signature="2104:2112" ph="{}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulso.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1476">
-          <caret line="94" column="34" lean-forward="false" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2824#3101#0" expanded="true" />
-            <element signature="e#3100#3101#0" expanded="true" />
-            <element signature="e#3399#3409#0" expanded="true" />
-            <element signature="e#3600#3616#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulso.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -584,7 +467,7 @@
         <state relative-caret-position="255">
           <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -594,9 +477,9 @@
         <state relative-caret-position="1020">
           <caret line="60" column="16" lean-forward="false" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2145#2146#0" expanded="true" />
-            <element signature="e#2178#2179#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2145#2146#0" expanded="false" />
+            <element signature="e#2178#2179#0" expanded="false" />
             <marker date="1513333695133" expanded="true" signature="1850:1876" ph="{...}" />
             <marker date="1513333695133" expanded="false" signature="1852:1866" ph=" }" />
             <marker date="1513333695133" expanded="true" signature="2104:2112" ph="{}" />
@@ -655,7 +538,11 @@
         <state relative-caret-position="187">
           <caret line="16" column="61" lean-forward="false" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
           <folding>
-            <marker date="1513333835285" expanded="true" signature="697:1138" ph="SELECT PROD.... PRODUTO" />
+            <element signature="e#3124#3134#0" expanded="true" />
+            <marker date="1513362156468" expanded="true" signature="697:1138" ph="SELECT PROD.... PRODUTO" />
+            <marker date="1513362156468" expanded="true" signature="2561:3048" ph="SELECT PROD.... PRODUTO" />
+            <marker date="1513362156468" expanded="true" signature="2561:3049" ph="SELECT PROD.... PRODUTO" />
+            <marker date="1513362156468" expanded="true" signature="2561:3059" ph="SELECT PROD.... PRODUTO" />
           </folding>
         </state>
       </provider>
@@ -746,22 +633,14 @@
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/ClassLoader.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/jasperreports/jasperreports/3.5.3/jasperreports-3.5.3-sources.jar!/net/sf/jasperreports/engine/JasperFillManager.java" />
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/javax/swing/AbstractButton.class" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="62" column="25" lean-forward="false" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2145#2146#0" expanded="true" />
-            <element signature="e#2178#2179#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2145#2146#0" expanded="false" />
+            <element signature="e#2178#2179#0" expanded="false" />
             <marker date="1513333695133" expanded="true" signature="1850:1876" ph="{...}" />
             <marker date="1513333695133" expanded="false" signature="1852:1866" ph=" }" />
             <marker date="1513333695133" expanded="true" signature="2104:2112" ph="{}" />
@@ -774,8 +653,8 @@
         <state relative-caret-position="102">
           <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding>
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="false" />
+            <element signature="e#183#184#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -795,39 +674,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ProductDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="313">
+          <caret line="79" column="44" lean-forward="false" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
           <folding>
-            <marker date="1513333835285" expanded="true" signature="697:1138" ph="SELECT PROD.... PRODUTO" />
+            <element signature="e#3124#3134#0" expanded="true" />
+            <marker date="1513362156468" expanded="true" signature="697:1138" ph="SELECT PROD.... PRODUTO" />
+            <marker date="1513362156468" expanded="true" signature="2561:3048" ph="SELECT PROD.... PRODUTO" />
+            <marker date="1513362156468" expanded="true" signature="2561:3049" ph="SELECT PROD.... PRODUTO" />
+            <marker date="1513362156468" expanded="true" signature="2561:3059" ph="SELECT PROD.... PRODUTO" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/entity/Produtos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="204">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="false" />
+            <element signature="e#758#759#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/ReportController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="364">
+          <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -836,15 +717,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulso.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="104" column="1" lean-forward="true" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
+        <state relative-caret-position="432">
+          <caret line="99" column="26" lean-forward="false" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2824#3101#0" expanded="true" />
-            <element signature="e#3100#3101#0" expanded="true" />
-            <element signature="e#3399#3409#0" expanded="true" />
-            <element signature="e#3600#3616#0" expanded="true" />
+            <element signature="e#2866#3143#0" expanded="true" />
+            <element signature="e#3142#3143#0" expanded="true" />
+            <element signature="e#4067#4083#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tagGenerator.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -853,11 +757,20 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="jpa-descriptors" />
+              <type id="artifact" />
+              <type id="javaee-facet-resources" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>tagGenerator:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -925,7 +838,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <last-edited>Maven: org.hibernate:hibernate-entitymanager:unknown</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
