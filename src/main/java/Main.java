@@ -7,7 +7,8 @@ public class Main {
 
         Boolean baseExist;
         SQLiteController sqlite = new SQLiteController();
-        String sqlitePath = "C:\\tagGenerator\\tagGenerator.sqlite";
+        //String sqlitePath = "C:\\tagGenerator\\tagGenerator.sqlite";
+        String sqlitePath = "/home/higor/tagGenerator/tagGenerator.sqlite";
         sqlite.checkIfHaveSqliteBase(sqlitePath);
         System.out.println("Entrou aqui");
         //Opções de Impressão e busca

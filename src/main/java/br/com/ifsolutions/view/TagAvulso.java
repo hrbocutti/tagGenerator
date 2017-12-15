@@ -86,12 +86,14 @@ public class TagAvulso {
 
     public void printAvulso(Integer rowId, TableModel model){
         String codeProduct = (String) model.getValueAt(rowId, 0);
+        String nameProduct = (String) model.getValueAt(rowId, 1);
+        //Map<String, String> map = new HashMap<>();
         HashMap<String, String> map = new HashMap<>();
 
-        map.put("codProd", codeProduct);
-        map.put("nameProd", codeProduct);
+        map.put("CODE", codeProduct);
+        map.put("TITLE", nameProduct);
 
         ReportController reportController = new ReportController();
-        reportController.reportGenerate("c:/report/avulso.jasper", map);
+        reportController.reportGenerate("/home/higor/JaspersoftWorkspace/MyReports/avulso.jasper", map);
     }
 }

@@ -39,7 +39,10 @@ public class TagView {
         venda.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println("Controller venda");
+                frame.setVisible(false);
+
+                TagController tagMovenda = new TagController();
+                tagMovenda.listarVendas();
             }
         });
 
@@ -47,7 +50,9 @@ public class TagView {
         fardo.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println("Controller Fardo");
+                frame.setVisible(false);
+                TagController tagFardo = new TagController();
+                tagFardo.listarFardo();
             }
         });
 
