@@ -7,34 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d334f265-382e-410c-8361-8be299c47d8f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulsoView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagFardoView.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagFardoView.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulso.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulso$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulso$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulso$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulso.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulso.form" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulsoView.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/tagGenerator_jar/tagGenerator.jar" afterPath="$PROJECT_DIR$/out/artifacts/tagGenerator_jar/tagGenerator.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/controller/ReportController.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/controller/ReportController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/controller/TagController.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/controller/TagController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/dao/ProductDao.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/dao/ProductDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/model/TagModel.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/model/TagModel.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/tagGenerator_jar/tagGenerator.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/avulso.jasper" afterPath="$PROJECT_DIR$/docs/avulso.jasper" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView$1.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView$2.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView$3.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView$4.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagView$1.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagView$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagView$2.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagView$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagView$3.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagView$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagView.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/ReportController.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/ReportController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/avulso.jrxml" afterPath="$PROJECT_DIR$/docs/avulso.jrxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/TagController.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/TagController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ProductDao.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ProductDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/entity/Venda.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/entity/Venda.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.form" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagView.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tagGenerator.iml" afterPath="$PROJECT_DIR$/tagGenerator.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,18 +32,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TagController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/TagController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -97,19 +72,19 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagViewForm.form" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulso.form" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/model/TagModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/entity/Venda.java" />
         <option value="$MAVEN_REPOSITORY$/jasperreports/jasperreports/3.5.3/jasperreports-3.5.3.jar!/net/sf/jasperreports/engine/JasperFillManager.class" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/ReportController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.form" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulso.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagView.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulsoView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/TagController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.form" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/entity/Venda.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java" />
       </list>
     </option>
   </component>
@@ -188,7 +163,35 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ifsolutions" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tagGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tagGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ifsolutions" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tagGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tagGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ifsolutions" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tagGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tagGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ifsolutions" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="TagMovendaView" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
@@ -353,16 +356,15 @@
       <workItem from="1513077754010" duration="21240000" />
       <workItem from="1513169193535" duration="38372000" />
       <workItem from="1513294318515" duration="17770000" />
-      <workItem from="1513605101429" duration="13773000" />
+      <workItem from="1513605101429" duration="24815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111693000" />
+    <option name="totallyTimeSpent" value="122735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -373,13 +375,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3243607" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3243607" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21401028" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21401028" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -403,12 +405,22 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="75" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="87" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="((HashMap)collectionDataSource.data[0]).entrySet().toArray()[0]" custom="java.util.HashMap" />
         <watch expression="((HashMap)collectionDataSource.data[0]).entrySet().toArray()[0]" custom="java.util.HashMap" />
+        <watch expression="rs" />
+        <watch expression="((FBResultSet)rs).fields" custom="org.firebirdsql.jdbc.FBResultSet" />
       </configuration>
     </watches-manager>
   </component>
@@ -447,14 +459,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
@@ -570,13 +574,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagView.form" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagViewForm.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagViewForm.form" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/entity/Venda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/jasperreports/jasperreports/3.5.3/jasperreports-3.5.3.jar!/net/sf/jasperreports/engine/JasperFillManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -589,33 +586,11 @@
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/ClassLoader.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/jasperreports/jasperreports/3.5.3/jasperreports-3.5.3-sources.jar!/net/sf/jasperreports/engine/JasperFillManager.java" />
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/javax/swing/AbstractButton.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="e#156#157#0" expanded="false" />
-            <element signature="e#183#184#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/entity/Produtos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="e#726#727#0" expanded="false" />
-            <element signature="e#758#759#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,39 +616,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="872" column="0" lean-forward="false" selection-start-line="872" selection-start-column="0" selection-end-line="872" selection-end-column="0" />
-          <folding>
-            <element signature="e#32228#32229#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <marker date="1513619162529" expanded="true" signature="703:1169" ph="SELECT PROD.... PRODUTO" />
-            <marker date="1513619162529" expanded="true" signature="1866:2353" ph="SELECT PROD.... PRODUTO" />
-            <marker date="1513619162529" expanded="true" signature="1866:2354" ph="SELECT PROD.... PRODUTO" />
-            <marker date="1513619162529" expanded="true" signature="1866:2364" ph="SELECT PROD.... PRODUTO" />
-            <marker date="1513619162529" expanded="true" signature="2988:3501" ph="SELECT PROD.... PRODUTO" />
-            <marker date="1513619162529" expanded="true" signature="2988:3504" ph="SELECT PROD.... PRODUTO" />
-            <marker date="1513619162529" expanded="true" signature="2988:3505" ph="SELECT PROD.... PRODUTO" />
-            <marker date="1513619162529" expanded="true" signature="2988:3508" ph="SELECT PROD.... PRODUTO" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulsoView.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
@@ -691,7 +634,7 @@
         <state relative-caret-position="272">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -720,14 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="31" column="68" lean-forward="false" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagFardoView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -746,11 +681,119 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/TagController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/entity/Produtos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/text/DateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="366" column="0" lean-forward="false" selection-start-line="366" selection-start-column="0" selection-end-line="366" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+          <folding>
+            <element signature="e#6326#6327#0" expanded="true" />
+            <element signature="e#6394#6395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" column="20" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <marker date="1513619162529" expanded="true" signature="703:1169" ph="SELECT PROD.... PRODUTO" />
+            <marker date="1513619162529" expanded="true" signature="1866:2353" ph="SELECT PROD.... PRODUTO" />
+            <marker date="1513619162529" expanded="true" signature="1866:2354" ph="SELECT PROD.... PRODUTO" />
+            <marker date="1513619162529" expanded="true" signature="1866:2364" ph="SELECT PROD.... PRODUTO" />
+            <marker date="1513619162529" expanded="true" signature="2988:3501" ph="SELECT PROD.... PRODUTO" />
+            <marker date="1513619162529" expanded="true" signature="2988:3504" ph="SELECT PROD.... PRODUTO" />
+            <marker date="1513619162529" expanded="true" signature="2988:3505" ph="SELECT PROD.... PRODUTO" />
+            <marker date="1513619162529" expanded="true" signature="2988:3508" ph="SELECT PROD.... PRODUTO" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="e#1941#2473#0" expanded="true" />
+            <element signature="e#2472#2473#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1513705828295" expanded="true" signature="947:968" ph="SELECT * FRO... MOVENDA" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/entity/Venda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1247#1248#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1335#1336#0" expanded="true" />
+            <element signature="e#1366#1367#0" expanded="true" />
+            <element signature="e#1427#1428#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
