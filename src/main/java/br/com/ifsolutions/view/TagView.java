@@ -31,7 +31,7 @@ public class TagView {
                 frame.setVisible(false);
 
                 TagController tagAvulsoController = new TagController();
-                tagAvulsoController.listarAvulso();
+                tagAvulsoController.avulso();
             }
         });
 
@@ -42,7 +42,7 @@ public class TagView {
                 frame.setVisible(false);
 
                 TagController tagMovenda = new TagController();
-                tagMovenda.listarVendas();
+                tagMovenda.vendas();
             }
         });
 
@@ -52,7 +52,7 @@ public class TagView {
             public void actionPerformed(ActionEvent e) {
                 frame.setVisible(false);
                 TagController tagFardo = new TagController();
-                tagFardo.listarFardo();
+                tagFardo.fardo();
             }
         });
 
@@ -63,13 +63,5 @@ public class TagView {
         panel.add(venda);
         panel.add(fardo);
         frame.getContentPane().add(panel);
-    }
-
-    public void renderTagAvulso(List<Produtos> products){
-
-    }
-
-    public void renderNewMenu(){
-        this.renderMenu();
     }
 }

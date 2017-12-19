@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="META-INF:persistence.xml/Hibernate" uuid="ad9fa91d-f17e-4055-aa22-441422d5b762">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>sysdba</user-name>
+    </data-source>
+  </component>
+</project>
