@@ -13,9 +13,7 @@ public class TagController {
 
     public void avulso() { new TagAvulsoView(); }
 
-    public void vendas() {
-        new TagMovendaView();
-    }
+    public void vendas() { new TagMovendaView(); }
 
     public void fardo() { new TagFardoView(); }
 }

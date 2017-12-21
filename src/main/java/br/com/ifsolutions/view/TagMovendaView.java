@@ -26,7 +26,6 @@ public class TagMovendaView {
     private JButton btnOpenOrder;
     private JPanel mainPanel;
     private JPanel bottomPanel;
-    private JPanel datePanel;
     private JTextField dateOf;
     private JTextField dateTo;
     private JButton btnFiltrar;
@@ -72,8 +71,6 @@ public class TagMovendaView {
                 JOptionPane.showMessageDialog(frame, "Data De e Data Por não podem estar em branco\n Padrão: DD/MM/AAAA");
 
             }else {
-
-                System.out.println("btn pesquisar !");
                 String codVenda = codVendaField.getText();
                 if (!codVenda.isEmpty()) {
                     VendasDao dao = new VendasDao();
@@ -115,13 +112,6 @@ public class TagMovendaView {
             }
         });
 
-        btnFiltrar.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                System.out.println("Btn " + btnFiltrar.getName() + " Clicado");
-            }
-        });
-
         btnOpenOrder.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -130,6 +120,5 @@ public class TagMovendaView {
                 new OrderView(codMovenda);
             }
         });
-
     }
 }

@@ -171,6 +171,6 @@ public class TagAvulsoView {
         parameters.put("ETIQUETA", dataSource);
 
         ReportController reportController = new ReportController();
-        reportController.reportGenerate("C:\\tagGenerator\\avulso.jasper", parameters);
+        reportController.reportGenerate("C:\\tagGenerator\\report\\avulso.jasper", parameters);
     }
 }

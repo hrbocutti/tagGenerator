@@ -56,7 +56,8 @@ public class VendasDao {
                     "WHERE venda.CODMOVENDA = '"+ codMovenda +"';");
 
             ArrayList<Produtos> produtos = this.produtosOrderInterator(rs);
-            produtos.get(0);
+            venda.get(0).setProdutos(produtos);
+            return venda;
 
         }catch(Exception e){
             System.out.println(e.getMessage());
