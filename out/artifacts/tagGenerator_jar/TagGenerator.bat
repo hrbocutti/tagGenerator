@@ -1,2 +1,2 @@
-java -jar tagGenerator.jar
+java -cp tagGenerator.jar Main
 pause;

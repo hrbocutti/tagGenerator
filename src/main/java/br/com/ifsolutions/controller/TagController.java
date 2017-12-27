@@ -1,9 +1,6 @@
 package br.com.ifsolutions.controller;
 
-import br.com.ifsolutions.view.TagAvulsoView;
-import br.com.ifsolutions.view.TagFardoView;
-import br.com.ifsolutions.view.TagMovendaView;
-import br.com.ifsolutions.view.TagView;
+import br.com.ifsolutions.view.*;
 
 public class TagController {
     public void renderTagMenu() {
@@ -15,5 +12,5 @@ public class TagController {
 
     public void vendas() { new TagMovendaView(); }
 
-    public void fardo() { new TagFardoView(); }
+    public void fardo() { new ClientView(); }
 }

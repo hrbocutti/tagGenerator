@@ -2,6 +2,7 @@ package br.com.ifsolutions.view;
 
 import br.com.ifsolutions.controller.ReportController;
 import br.com.ifsolutions.dao.ProductDao;
+import br.com.ifsolutions.entity.Cliente;
 import br.com.ifsolutions.entity.Produtos;
 import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 
