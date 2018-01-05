@@ -7,33 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d334f265-382e-410c-8361-8be299c47d8f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/MenuController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/MenuView.form" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/MenuView.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tagGenerator_jar/tagGenerator.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ProductDao.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ProductDao.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/OrderView.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/OrderView.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulsoView.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulsoView.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" afterPath="$PROJECT_DIR$/target/classes/Main.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/dao/ProductDao.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/dao/ProductDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/dao/VendasDao.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/dao/VendasDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/OrderView$1.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/OrderView$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/OrderView$2.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/OrderView$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/OrderView.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/OrderView.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulsoView$1.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulsoView$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulsoView$2.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulsoView$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulsoView$3.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulsoView$3.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulsoView.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagAvulsoView.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView$1.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView$2.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView$3.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView$3.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,18 +23,7 @@
     <SUITE FILE_PATH="coverage/tagGenerator$Main.coverage" NAME="Main Coverage Results" MODIFIED="1513854884137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TagMovendaView.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -123,13 +87,13 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/MenuView.form" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/MenuController.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ProductDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagView.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/TagController.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/MenuView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/OrderView.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulsoView.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/OrderView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java" />
       </list>
     </option>
   </component>
@@ -146,7 +110,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="474" />
     <option name="y" value="-14" />
     <option name="width" value="974" />
@@ -432,8 +396,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -454,7 +417,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48990577" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48976377" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -507,7 +470,27 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="128" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/OrderView.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java</url>
+          <line>122</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="131" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -637,13 +620,6 @@
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/firebirdsql/jdbc/jaybird/2.1.6/jaybird-2.1.6-sources.jar!/org/firebirdsql/jdbc/AbstractStatement.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/AbstractButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="2307" column="0" lean-forward="false" selection-start-line="2307" selection-start-column="0" selection-end-line="2307" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/DefaultButtonModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -749,13 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="57" column="48" lean-forward="false" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/artifacts/tagGenerator_jar/TagGenerator.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -810,13 +779,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/OrderView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="38" column="81" lean-forward="false" selection-start-line="38" selection-start-column="81" selection-end-line="38" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulsoView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -833,8 +795,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="125">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding>
+            <element signature="e#1969#2256#0" expanded="true" />
+            <element signature="e#2255#2256#0" expanded="true" />
+            <element signature="e#2302#4472#0" expanded="true" />
+            <element signature="e#4471#4472#0" expanded="true" />
+            <element signature="e#4515#4825#0" expanded="true" />
+            <element signature="e#4824#4825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/AbstractButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="1966" column="0" lean-forward="false" selection-start-line="1966" selection-start-column="0" selection-end-line="1966" selection-end-column="0" />
+          <folding>
+            <element signature="e#82980#82981#0" expanded="true" />
+            <element signature="e#83030#83031#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/OrderView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding>
+            <element signature="e#2462#4906#0" expanded="true" />
+            <element signature="e#4905#4906#0" expanded="true" />
+            <element signature="e#4946#5112#0" expanded="true" />
+            <element signature="e#5111#5112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>

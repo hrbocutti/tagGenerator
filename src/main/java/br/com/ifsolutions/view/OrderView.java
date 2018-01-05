@@ -49,8 +49,8 @@ public class OrderView {
         final ArrayList<Produtos> produtos = orderItems.get(0).getProdutos();
         JCheckBox checkBoxAll = new JCheckBox();
         defaultTable = new DefaultTableModel();
-        defaultTable.addColumn("CODPROD");
-        defaultTable.addColumn("NOMEPROD");
+        defaultTable.addColumn("CODIGO");
+        defaultTable.addColumn("NOME");
         defaultTable.addColumn("UNIDADE");
         defaultTable.addColumn("QUANTIDADE");
 

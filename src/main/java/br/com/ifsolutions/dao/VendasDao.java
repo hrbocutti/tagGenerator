@@ -45,8 +45,8 @@ public class VendasDao {
             ArrayList<Venda> venda = this.findByCodVenda(codMovenda);
 
             rs = stmt.executeQuery(
-                    "SELECT venda.CODMOVENDA, venda.NUMPED, prodVenda.CODPROD, prodVenda.QUANTIDADE, " +
-                    "produto.NOMEPROD, produto.DESCRICAOEMBALAGEM, produto.SERIALCARACTERES COR, \n" +
+                    "SELECT venda.CODMOVENDA, prodVenda.CODPROD, prodVenda.QUANTIDADE, " +
+                    "produto.NOMEPROD, produto.CODIGO, produto.DESCRICAOEMBALAGEM, produto.SERIALCARACTERES COR, \n" +
                     "produto.APLICACAO COMPOSICAO, LOCALI.DESCRICAO as ORIGEM, UN.UNIDADE, FAB.NOMEFABRICANTE TAMANHO FROM MOVENDA venda \n" +
                     "JOIN MOVENDAPROD prodVenda ON venda.CODMOVENDA = prodVenda.CODMOVENDA \n" +
                     "JOIN PRODUTO produto ON produto.CODPROD = prodVenda.CODPROD\n" +
