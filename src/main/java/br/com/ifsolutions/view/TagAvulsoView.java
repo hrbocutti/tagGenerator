@@ -1,5 +1,6 @@
 package br.com.ifsolutions.view;
 
+import br.com.ifsolutions.controller.MenuController;
 import br.com.ifsolutions.controller.ReportController;
 import br.com.ifsolutions.dao.ProductDao;
 import br.com.ifsolutions.entity.Cliente;
@@ -41,6 +42,9 @@ public class TagAvulsoView {
         Container container = frame.getContentPane();
         container.add(mainPanel);
 
+        Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+        frame.setLocation(dim.width/2-frame.getSize().width/2, dim.height/2-frame.getSize().height/2);
+
         pesquisarButton.addActionListener(new ActionListener() {
 
             @Override
@@ -56,10 +60,10 @@ public class TagAvulsoView {
 
             private void findByCode() {
                 codeTableModel = new DefaultTableModel();
-                codeTableModel.addColumn("Cod");
-                codeTableModel.addColumn("Nome");
-                codeTableModel.addColumn("ORIGEM");
-                codeTableModel.addColumn("UN");
+                codeTableModel.addColumn("Codigo Produto");
+                codeTableModel.addColumn("Nome Produto");
+                codeTableModel.addColumn("Origem");
+                codeTableModel.addColumn("Unidade");
                 codeTableModel.addColumn("Tamanho");
                 String codProduto = fieldCode.getText();
                 ProductDao dao = new ProductDao();
@@ -81,10 +85,10 @@ public class TagAvulsoView {
 
             private void findByName() {
                 nameTablemodel = new DefaultTableModel();
-                nameTablemodel.addColumn("Cod");
-                nameTablemodel.addColumn("Nome");
-                nameTablemodel.addColumn("ORIGEM");
-                nameTablemodel.addColumn("UN");
+                nameTablemodel.addColumn("Codigo Produto");
+                nameTablemodel.addColumn("Nome Produto");
+                nameTablemodel.addColumn("Origem");
+                nameTablemodel.addColumn("Unidade");
                 nameTablemodel.addColumn("Tamanho");
                 String nameProduct = fieldName.getText();
                 ProductDao dao = new ProductDao();
@@ -104,10 +108,10 @@ public class TagAvulsoView {
 
             private void findAll() {
                 defaultTableModel = new DefaultTableModel();
-                defaultTableModel.addColumn("Cod");
-                defaultTableModel.addColumn("Nome");
-                defaultTableModel.addColumn("ORIGEM");
-                defaultTableModel.addColumn("UN");
+                defaultTableModel.addColumn("Cod Produto");
+                defaultTableModel.addColumn("Nome Produto");
+                defaultTableModel.addColumn("Origem");
+                defaultTableModel.addColumn("Unidade");
                 defaultTableModel.addColumn("Tamanho");
                 ProductDao dao = new ProductDao();
                 ArrayList<Produtos> items = dao.findAll();
@@ -132,8 +136,8 @@ public class TagAvulsoView {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.setVisible(false);
-                TagView tagView = new TagView();
-                tagView.renderMenu();
+                MenuController menuController = new MenuController();
+                menuController.startApplication();
             }
         });
 

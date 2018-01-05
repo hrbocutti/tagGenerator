@@ -1,5 +1,6 @@
 package br.com.ifsolutions.view;
 
+import br.com.ifsolutions.controller.MenuController;
 import br.com.ifsolutions.controller.TagController;
 import br.com.ifsolutions.dao.VendasDao;
 import br.com.ifsolutions.entity.Venda;
@@ -38,6 +39,9 @@ public class TagMovendaView {
         frame.setVisible(true);
         frame.setDefaultCloseOperation(WindowConstants.HIDE_ON_CLOSE);
 
+        Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+        frame.setLocation(dim.width/2-frame.getSize().width/2, dim.height/2-frame.getSize().height/2);
+
         Container container = frame.getContentPane();
         container.add(mainPanel);
 
@@ -59,8 +63,8 @@ public class TagMovendaView {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.setVisible(false);
-                TagController menu = new TagController();
-                menu.renderTagMenu();
+                MenuController menuController = new MenuController();
+                menuController.startApplication();
             }
         });
 
@@ -77,10 +81,10 @@ public class TagMovendaView {
                     dao.findByCodVenda(codVenda);
                 } else {
                     defaultTable = new DefaultTableModel();
-                    defaultTable.addColumn("CODMOVENDA");
-                    defaultTable.addColumn("NOMECLI");
-                    defaultTable.addColumn("DATA");
-                    defaultTable.addColumn("NUMNOTA");
+                    defaultTable.addColumn("Codigo Venda");
+                    defaultTable.addColumn("Nome Cliente");
+                    defaultTable.addColumn("Data");
+                    defaultTable.addColumn("Numero Nota");
 
                     try {
 

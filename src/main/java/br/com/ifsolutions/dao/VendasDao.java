@@ -18,7 +18,7 @@ public class VendasDao {
             conn = DriverManager.getConnection(url, "sysdba", "masterkey");
 
             stmt = conn.createStatement();
-            rs = stmt.executeQuery("SELECT venda.CODMOVENDA, venda.CODCLI, cli.NOMECLI, venda.DATA, venda.NUMNOTA, venda.CODEMPRESA, venda.NUMCUPOM FROM MOVENDA venda\n" +
+            rs = stmt.executeQuery("SELECT venda.CODMOVENDA, venda.NUMPED, venda.CODCLI, cli.NOMECLI, venda.DATA, venda.NUMNOTA, venda.CODEMPRESA, venda.NUMCUPOM FROM MOVENDA venda\n" +
                                         "JOIN CLIENTE cli ON venda.CODCLI = cli.CODCLI WHERE venda.DATA >= '"+ dateOf  +"' AND venda.DATA <= '"+ dateTo +"' ");
 
 
@@ -45,7 +45,7 @@ public class VendasDao {
             ArrayList<Venda> venda = this.findByCodVenda(codMovenda);
 
             rs = stmt.executeQuery(
-                    "SELECT venda.CODMOVENDA, prodVenda.CODPROD, prodVenda.QUANTIDADE, " +
+                    "SELECT venda.CODMOVENDA, venda.NUMPED, prodVenda.CODPROD, prodVenda.QUANTIDADE, " +
                     "produto.NOMEPROD, produto.DESCRICAOEMBALAGEM, produto.SERIALCARACTERES COR, \n" +
                     "produto.APLICACAO COMPOSICAO, LOCALI.DESCRICAO as ORIGEM, UN.UNIDADE, FAB.NOMEFABRICANTE TAMANHO FROM MOVENDA venda \n" +
                     "JOIN MOVENDAPROD prodVenda ON venda.CODMOVENDA = prodVenda.CODMOVENDA \n" +
@@ -53,7 +53,7 @@ public class VendasDao {
                     "JOIN LOCALIZACAO LOCALI ON produto.CODLOC = LOCALI.CODLOC\n" +
                     "JOIN UNIDADE UN ON produto.UNIDADE = UN.UNIDADE\n" +
                     "JOIN FABRICANTE FAB ON produto.CODFABRICANTE = FAB.CODFABRICANTE\n" +
-                    "WHERE venda.CODMOVENDA = '"+ codMovenda +"';");
+                    "WHERE venda.NUMPED = '"+ codMovenda +"';");
 
             ArrayList<Produtos> produtos = this.produtosOrderInterator(rs);
             venda.get(0).setProdutos(produtos);
@@ -77,9 +77,9 @@ public class VendasDao {
 
             stmt = conn.createStatement();
             rs = stmt.executeQuery(
-                    "SELECT venda.CODMOVENDA, venda.CODCLI, cli.NOMECLI, venda.DATA, venda.NUMNOTA, venda.CODEMPRESA, venda.NUMCUPOM  FROM MOVENDA venda\n" +
+                    "SELECT venda.CODMOVENDA, venda.NUMPED, venda.CODCLI, cli.NOMECLI, venda.DATA, venda.NUMNOTA, venda.CODEMPRESA, venda.NUMCUPOM  FROM MOVENDA venda\n" +
                             "JOIN CLIENTE cli ON venda.CODCLI = cli.CODCLI\n" +
-                            "WHERE venda.CODMOVENDA = '"+ codMovenda +"';");
+                            "WHERE venda.NUMPED = '"+ codMovenda +"';");
 
             return this.vendasInterator(rs);
 
@@ -94,7 +94,7 @@ public class VendasDao {
         try {
             while (rs.next()) {
                 Venda venda = new Venda();
-                venda.setCodmovenda(rs.getString("CODMOVENDA"));
+                venda.setCodmovenda(rs.getString("NUMPED"));
                 venda.setCodEmpresa(rs.getString("CODEMPRESA"));
                 venda.setNomeCliente(rs.getString("NOMECLI"));
                 venda.setDataVenda(rs.getString("DATA"));
@@ -113,7 +113,7 @@ public class VendasDao {
         try {
             while (rs.next()){
                 Produtos produto = new Produtos();
-                produto.setCodigo(rs.getString("CODPROD"));
+                produto.setCodigo(rs.getString("CODIGO"));
                 produto.setNome(rs.getString("NOMEPROD"));
                 produto.setDescricao(rs.getString("DESCRICAOEMBALAGEM"));
                 produto.setOrigem(rs.getString("ORIGEM"));
