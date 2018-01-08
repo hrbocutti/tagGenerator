@@ -1,4 +1,5 @@
 package br.com.ifsolutions.dao;
+import br.com.ifsolutions.controller.SettingsController;
 import br.com.ifsolutions.entity.Produtos;
 
 import java.sql.Connection;
@@ -6,7 +7,9 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class ProductDao{
     public ArrayList<Produtos> findAll(){
@@ -15,7 +18,7 @@ public class ProductDao{
         ResultSet rs = null;
         try {
             Class.forName("org.firebirdsql.jdbc.FBDriver");
-            String url = "jdbc:firebirdsql:localhost/3050:c:/CPLUS.FDB";
+            String url = getUrlDb();
             conn = DriverManager.getConnection(url, "sysdba", "masterkey");
 
             stmt = conn.createStatement();
@@ -42,7 +45,7 @@ public class ProductDao{
         try{
 
             Class.forName("org.firebirdsql.jdbc.FBDriver");
-            String url = "jdbc:firebirdsql:localhost/3050:c:/CPLUS.FDB";
+            String url = getUrlDb();
             conn = DriverManager.getConnection(url, "sysdba", "masterkey");
 
             stmt = conn.createStatement();
@@ -66,7 +69,7 @@ public class ProductDao{
 
         try{
             Class.forName("org.firebirdsql.jdbc.FBDriver");
-            String url = "jdbc:firebirdsql:localhost/3050:c:/CPLUS.FDB";
+            String url = getUrlDb();
             conn = DriverManager.getConnection(url, "sysdba", "masterkey");
 
             stmt = conn.createStatement();
@@ -103,5 +106,21 @@ public class ProductDao{
             System.out.println(e);
         }
         return products;
+    }
+
+    private String getUrlDb(){
+        SettingsController settingsController = new SettingsController();
+        HashMap<String, String> settings = settingsController.readSettings();
+
+        String url = "jdbc:firebirdsql:localhost/3050:";
+
+        for (Map.Entry<String,String> setting : settings.entrySet()) {
+            String key = setting.getKey();
+            if (key.equals("db")){
+                String value = setting.getValue();
+                url = url + value;
+            }
+        }
+        return url;
     }
 }

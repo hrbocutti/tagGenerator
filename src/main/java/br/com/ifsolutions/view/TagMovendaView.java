@@ -1,10 +1,8 @@
 package br.com.ifsolutions.view;
 
 import br.com.ifsolutions.controller.MenuController;
-import br.com.ifsolutions.controller.TagController;
 import br.com.ifsolutions.dao.VendasDao;
 import br.com.ifsolutions.entity.Venda;
-import org.hibernate.criterion.Order;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -25,7 +23,7 @@ public class TagMovendaView {
     private JPanel middlePanel;
     private JButton btnCancel;
     private JButton btnOpenOrder;
-    private JPanel mainPanel;
+    private JPanel mainFrame;
     private JPanel bottomPanel;
     private JTextField dateOf;
     private JTextField dateTo;
@@ -43,7 +41,7 @@ public class TagMovendaView {
         frame.setLocation(dim.width/2-frame.getSize().width/2, dim.height/2-frame.getSize().height/2);
 
         Container container = frame.getContentPane();
-        container.add(mainPanel);
+        container.add(mainFrame);
 
         //setar data default
 
