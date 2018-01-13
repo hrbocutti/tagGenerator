@@ -12,7 +12,7 @@ public class ReportController {
             JasperPrint print = JasperFillManager.fillReport(fileName, parameters, new JREmptyDataSource());
             print.setOrientation(OrientationEnum.LANDSCAPE);
             //JasperViewer.viewReport(print,false);
-            JasperPrintManager.printReport(print,true);
+            JasperPrintManager.printReport(print,false);
         }catch (Exception e){
             System.out.println(e.getMessage());
         }

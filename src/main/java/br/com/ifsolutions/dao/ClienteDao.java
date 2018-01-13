@@ -68,6 +68,24 @@ public class ClienteDao {
         return null;
     }
 
+    public ArrayList<Cliente> findByCodVenda(String codVenda) {
+        Connection conn = null;
+        Statement stmt = null;
+        ResultSet rs = null;
+
+        try {
+            Class.forName("org.firebirdsql.jdbc.FBDriver");
+            String url = getUrlDb();
+            conn = DriverManager.getConnection(url, "sysdba", "masterkey");
+            stmt = conn.createStatement();
+            rs = stmt.executeQuery("SELECT cli.* FROM CLIENTE cli JOIN MOVENDA venda ON venda.CODCLI = cli.CODCLI WHERE venda.NUMPED = '"+codVenda+"';");
+            return this.clienteInterator(rs);
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+        return null;
+    }
+
     public ArrayList<Cliente> findByIdFardo(String codCli) {
         Connection conn = null;
         Statement stmt = null;
@@ -122,8 +140,10 @@ public class ClienteDao {
 
                 Cliente cliente = new Cliente();
                 cliente.setCode(rs.getString("CODCLI"));
-                cliente.setName(rs.getString("NOMECLI") + " " + DOCTIPO + " :" + DOCUMENTO);
-                cliente.setAddress(rs.getString("ENDERECO") + ", " + rs.getString("NUMEROLOGRADOURO"));
+                cliente.setName(rs.getString("CONJFANTASIA"));
+                cliente.setAddress(rs.getString("ENDERECO")
+                        + ", " + rs.getString("NUMEROLOGRADOURO")
+                        + " - " + rs.getString("COMPLEMENTOLOGRADOURO"));
                 cliente.setNeighborhood(rs.getString("BAIRRO"));
                 cliente.setCity(rs.getString("CIDADE"));
                 cliente.setState(rs.getString("ESTADO"));
@@ -152,4 +172,5 @@ public class ClienteDao {
         }
         return url;
     }
+
 }

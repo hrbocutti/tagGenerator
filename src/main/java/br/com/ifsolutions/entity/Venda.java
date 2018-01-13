@@ -9,6 +9,7 @@ public class Venda {
     protected String dataVenda;
     protected String numNota;
     protected String numCupom;
+    protected String volumes;
     protected ArrayList<Produtos> produtos;
 
     public String getCodmovenda() {
@@ -65,5 +66,13 @@ public class Venda {
 
     public void setProdutos(ArrayList<Produtos> produtos) {
         this.produtos = produtos;
+    }
+
+    public String getVolumes() {
+        return volumes;
+    }
+
+    public void setVolumes(String volumes) {
+        this.volumes = volumes;
     }
 }

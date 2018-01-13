@@ -1,8 +1,12 @@
 package br.com.ifsolutions.view;
 
 import br.com.ifsolutions.controller.MenuController;
+import br.com.ifsolutions.controller.ReportController;
+import br.com.ifsolutions.dao.ClienteDao;
 import br.com.ifsolutions.dao.VendasDao;
+import br.com.ifsolutions.entity.Cliente;
 import br.com.ifsolutions.entity.Venda;
+import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -14,6 +18,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.HashMap;
 
 public class TagMovendaView {
     private JTextField codVendaField;
@@ -27,6 +32,7 @@ public class TagMovendaView {
     private JPanel bottomPanel;
     private JTextField dateOf;
     private JTextField dateTo;
+    private JButton btnFardo;
     private JButton btnFiltrar;
     private DefaultTableModel defaultTable;
 
@@ -120,6 +126,50 @@ public class TagMovendaView {
                 Integer idRow = tableVendas.getSelectedRow();
                 String codMovenda = (String) defaultTable.getValueAt(idRow, 0);
                 new OrderView(codMovenda);
+            }
+        });
+
+        btnFardo.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Integer idRow = tableVendas.getSelectedRow();
+                String codMovenda = (String) defaultTable.getValueAt(idRow, 0);
+
+                VendasDao vendasDao = new VendasDao();
+                ArrayList<Venda> vendas = vendasDao.findByCodVenda(codMovenda);
+
+                String volumes = vendasDao.findVolumesByVenda(codMovenda);
+
+                vendas.get(0).setVolumes(volumes);
+
+                ClienteDao clienteDao = new ClienteDao();
+                ArrayList<Cliente> cliente = clienteDao.findByCodVenda(codMovenda);
+
+                Integer volumesCount = Integer.valueOf(volumes);
+
+
+                for (Integer count = 1; count <= volumesCount; count++){
+                    ArrayList fardo = new ArrayList();
+
+                    HashMap<String, String> dadosFardo = new HashMap<>();
+                    dadosFardo.put("nome",cliente.get(0).getName());
+                    dadosFardo.put("logradouro", cliente.get(0).getAddress());
+                    dadosFardo.put("bairro", cliente.get(0).getNeighborhood());
+                    dadosFardo.put("cidade", cliente.get(0).getCity());
+                    dadosFardo.put("cep", cliente.get(0).getCEP());
+                    dadosFardo.put("nf", vendas.get(0).getNumNota());
+                    dadosFardo.put("total_volume", volumes);
+                    dadosFardo.put("volume", String.valueOf(count));
+                    fardo.add(dadosFardo);
+
+                    JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(fardo);
+                    HashMap<String, Object> parameters = new HashMap<String, Object>();
+                    parameters.put("ETIQUETA", dataSource);
+
+                    ReportController reportController = new ReportController();
+                    reportController.reportGenerate("C:\\tagGenerator\\report\\fardo.jasper", parameters);
+
+                }
             }
         });
     }

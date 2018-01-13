@@ -6,28 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d334f265-382e-410c-8361-8be299c47d8f" name="Default" comment="">
+    <list default="true" id="d334f265-382e-410c-8361-8be299c47d8f" name="Default" comment="Altera">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tagGenerator_jar/tagGenerator.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/SettingsController.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/SettingsController.java" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tagGenerator_jar/tagGenerator.jar" afterPath="$PROJECT_DIR$/out/artifacts/tagGenerator_jar/tagGenerator.jar" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/ReportController.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/ReportController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ClienteDao.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ClienteDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ProductDao.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ProductDao.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/MenuView.form" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/MenuView.form" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/MenuView.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/MenuView.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagFardoView.form" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagFardoView.form" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/entity/Venda.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/entity/Venda.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagFardoView.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagFardoView.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.form" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.form" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" afterPath="$PROJECT_DIR$/target/classes/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/controller/ReportController.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/controller/ReportController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/dao/ClienteDao.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/dao/ClienteDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/dao/ProductDao.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/dao/ProductDao.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/dao/VendasDao.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/dao/VendasDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/MenuView$1.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/MenuView$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/MenuView$2.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/MenuView$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/MenuView$3.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/MenuView$3.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/MenuView.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/MenuView.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/entity/Venda.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/entity/Venda.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagFardoView.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagFardoView.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView$1.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView$1.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView$2.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ifsolutions/view/TagMovendaView$2.class" />
@@ -48,12 +40,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClienteDao.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClienteDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ClienteDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="102" column="13" lean-forward="false" selection-start-line="91" selection-start-column="29" selection-end-line="102" selection-end-column="13" />
+            <state relative-caret-position="-2477">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VendasDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-374">
+              <caret line="49" column="27" lean-forward="false" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TagMovendaView.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="158" column="67" lean-forward="false" selection-start-line="158" selection-start-column="67" selection-end-line="158" selection-end-column="67" />
+              <folding>
+                <element signature="e#5037#7048#0" expanded="true" />
+                <element signature="e#6738#6754#0" expanded="true" />
+                <element signature="e#7047#7048#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,10 +122,8 @@
         <option value="$MAVEN_REPOSITORY$/jasperreports/jasperreports/3.5.3/jasperreports-3.5.3.jar!/net/sf/jasperreports/engine/JasperFillManager.class" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulso.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/entity/Venda.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/model/TagModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/OrderView.form" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/ReportController.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/ClientView.form" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulsoView.form" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/entity/Cliente.java" />
@@ -119,18 +133,20 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagView.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/TagController.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulsoView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/OrderView.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/SettingsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/MenuView.form" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.form" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagFardoView.form" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagFardoView.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/MenuView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/ReportController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagFardoView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.form" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ClienteDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/entity/Venda.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java" />
       </list>
     </option>
   </component>
@@ -168,8 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,6 +247,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ifsolutions" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tagGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tagGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ifsolutions" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -284,6 +307,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -549,25 +574,37 @@
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java</url>
-          <line>120</line>
-          <properties />
-          <option name="timeStamp" value="130" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/MenuView.java</url>
           <line>68</line>
           <properties />
           <option name="timeStamp" value="139" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagFardoView.java</url>
-          <line>113</line>
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java</url>
+          <line>80</line>
           <properties />
-          <option name="timeStamp" value="140" />
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java</url>
+          <line>148</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="148" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="141" />
+      <option name="time" value="149" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -580,7 +617,24 @@
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="arrayFilter">
+      <expression>
+        <expression-string>QUANTIDADE</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>rs.getString(&quot;VOLUMES&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rs.getType()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>key</expression-string>
         <language-id>JAVA</language-id>
@@ -616,27 +670,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>products.get(0).getUnidade_medida()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>products.get(0)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/java/awt/EventDispatchThread.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/model/SqliteModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -727,20 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/entity/Venda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/ReportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/table/DefaultTableModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -796,17 +818,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/AbstractButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="1966" column="0" lean-forward="false" selection-start-line="1966" selection-start-column="0" selection-end-line="1966" selection-end-column="0" />
-          <folding>
-            <element signature="e#82980#82981#0" expanded="false" />
-            <element signature="e#83030#83031#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -818,34 +829,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="135" column="4" lean-forward="false" selection-start-line="135" selection-start-column="4" selection-end-line="149" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="110" column="4" lean-forward="false" selection-start-line="110" selection-start-column="4" selection-end-line="124" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/SettingsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/OrderView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1331">
-          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -867,19 +854,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="70" column="56" lean-forward="true" selection-start-line="70" selection-start-column="56" selection-end-line="70" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagFardoView.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -892,14 +866,6 @@
           <folding>
             <element signature="e#327#328#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulsoView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="178" column="95" lean-forward="false" selection-start-line="155" selection-start-column="7" selection-end-line="178" selection-end-column="95" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,27 +882,287 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/controller/ReportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/security/ProtectionDomain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagFardoView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="113" column="87" lean-forward="false" selection-start-line="113" selection-start-column="87" selection-end-line="113" selection-end-column="87" />
+        <state relative-caret-position="124">
+          <caret line="113" column="9" lean-forward="false" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1368#2278#0" expanded="true" />
-            <element signature="e#2277#2278#0" expanded="true" />
-            <element signature="e#2317#2611#0" expanded="true" />
-            <element signature="e#2610#2611#0" expanded="true" />
-            <element signature="e#2653#2944#0" expanded="true" />
-            <element signature="e#2943#2944#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/entity/Venda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="70" column="32" lean-forward="false" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+          <folding>
+            <element signature="e#1561#1562#0" expanded="false" />
+            <element signature="e#1607#1608#0" expanded="false" />
+            <element signature="e#1645#1646#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/AbstractButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2307" column="0" lean-forward="false" selection-start-line="2307" selection-start-column="0" selection-end-line="2307" selection-end-column="0" />
+          <folding>
+            <element signature="e#83030#83031#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/firebirdsql/jdbc/jaybird/2.1.6/jaybird-2.1.6.jar!/org/firebirdsql/jdbc/AbstractResultSet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="355" column="0" lean-forward="false" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
+          <folding>
+            <marker date="1515189147790" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1515189147790" expanded="false" signature="144:1002" ph="..." />
+            <marker date="1515189147790" expanded="true" signature="1877:1928" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="1999:2006" ph="{}" />
+            <marker date="1515189147790" expanded="true" signature="2091:2125" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="2374:4188" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="4278:4435" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="4502:5153" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="4758:5029" ph="{...}" />
+            <marker date="1515189147790" expanded="false" signature="4804:4827" ph=" { " />
+            <marker date="1515189147790" expanded="false" signature="4864:4882" ph=" }" />
+            <marker date="1515189147790" expanded="false" signature="4937:4960" ph=" { " />
+            <marker date="1515189147790" expanded="false" signature="4997:5015" ph=" }" />
+            <marker date="1515189147790" expanded="true" signature="5211:5314" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="5373:5680" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="5747:5814" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="5862:6042" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="6088:6121" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="6182:6915" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="6966:7256" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="7333:7400" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="7475:7541" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="7619:7687" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="7750:7810" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="7879:7942" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="8005:8065" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="8131:8192" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="8255:8315" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="8382:8444" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="8509:8570" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="8631:8690" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="8753:8813" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="8880:8942" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="9007:9068" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="9135:9386" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="9449:9509" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="9582:9647" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="9653:9671" ph="/**...*/" />
+            <marker date="1515189147790" expanded="true" signature="9749:9818" ph="{...}" />
+            <marker date="1515189147790" expanded="false" signature="9869:9880" ph=" { " />
+            <marker date="1515189147790" expanded="false" signature="9918:9924" ph=" }" />
+            <marker date="1515189147790" expanded="true" signature="9991:10267" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="10360:10937" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="11006:12043" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="12049:12067" ph="/**...*/" />
+            <marker date="1515189147790" expanded="true" signature="12152:12223" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="12292:12541" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="12612:12674" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="12739:12798" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="12865:12925" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="12988:13046" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="13111:13170" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="13237:13297" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="13366:13427" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="13433:13451" ph="/**...*/" />
+            <marker date="1515189147790" expanded="true" signature="13538:13608" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="13676:13736" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="13801:13860" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="13925:13984" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="14059:14123" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="14202:14268" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="14274:14292" ph="/**...*/" />
+            <marker date="1515189147790" expanded="true" signature="14372:14440" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="14520:14587" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="14645:14686" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="14740:14781" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="14837:14876" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="14941:15019" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="15088:15149" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="15216:16678" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="16754:16825" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="16903:16973" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="17050:17115" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="17172:17226" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="17281:17333" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="17384:17432" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="17482:17529" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="17581:17691" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="17741:17849" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="17898:18079" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="18127:18307" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="18353:18403" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="18462:18649" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="18709:18897" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="18949:19133" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="19204:19334" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="19391:19419" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="19480:19810" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="19862:19915" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="19962:19997" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="20051:20093" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="20147:20327" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="20382:20562" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="20616:20796" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="20862:21043" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="21123:21308" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="21382:21564" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="21640:21823" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="21895:22080" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="22154:22336" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="22412:22595" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="22673:22857" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="22943:23131" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="23209:23393" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="23470:23653" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="23727:23909" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="23983:24165" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="24249:24436" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="24536:24733" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="24834:25032" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="25131:25332" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="25421:25605" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="25683:25867" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="25935:26115" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="26197:26381" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="26457:26638" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="26716:26898" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="26972:27156" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="27232:27413" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="27491:27673" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="27753:27936" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="28024:28211" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="28291:28474" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="28553:28735" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="28811:28992" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="29068:29249" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="29335:29521" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="29623:29819" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="29922:30119" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="30225:30430" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="30521:30704" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="30784:30967" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="31017:31296" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="31346:31622" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="31672:31921" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="31972:32249" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="32306:32485" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="32541:32719" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="32776:32955" ph="{...}" />
+            <marker date="1515189147790" expanded="false" signature="32992:33003" ph=" { " />
+            <marker date="1515189147790" expanded="false" signature="33027:33033" ph=" }" />
+            <marker date="1515189147790" expanded="true" signature="33099:33154" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="33205:33254" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="33307:33357" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="33412:33463" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="33541:33605" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="33668:33726" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="33791:33850" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="33915:33974" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="34041:34101" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="34178:34241" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="34320:34382" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="34459:34522" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="34601:34663" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="34750:34818" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="34907:34974" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="35030:35086" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="35145:35201" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="35273:35329" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="35404:35460" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="35534:35590" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="35667:35723" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="35797:35853" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="35930:35986" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="36062:36118" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="36197:36253" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="36312:36435" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="36489:36531" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="36583:36618" ph="{...}" />
+            <marker date="1515189147790" expanded="true" signature="36670:37038" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/OrderView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/VendasDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="49" column="27" lean-forward="false" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="112" column="62" lean-forward="true" selection-start-line="112" selection-start-column="62" selection-end-line="112" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/dao/ClienteDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="102" column="13" lean-forward="false" selection-start-line="91" selection-start-column="29" selection-end-line="102" selection-end-column="13" />
+        <state relative-caret-position="-2477">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagAvulsoView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="178" column="95" lean-forward="false" selection-start-line="173" selection-start-column="8" selection-end-line="178" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/ifsolutions/view/TagMovendaView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="158" column="67" lean-forward="false" selection-start-line="158" selection-start-column="67" selection-end-line="158" selection-end-column="67" />
+          <folding>
+            <element signature="e#5037#7048#0" expanded="true" />
+            <element signature="e#6738#6754#0" expanded="true" />
+            <element signature="e#7047#7048#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

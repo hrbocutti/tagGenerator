@@ -79,16 +79,39 @@ public class VendasDao {
 
             stmt = conn.createStatement();
             rs = stmt.executeQuery(
-                    "SELECT venda.CODMOVENDA, venda.NUMPED, venda.CODCLI, cli.NOMECLI, venda.DATA, venda.NUMNOTA, venda.CODEMPRESA, venda.NUMCUPOM  FROM MOVENDA venda\n" +
+                    "SELECT venda.CODMOVENDA, venda.NUMPED, venda.CODCLI, cli.NOMECLI, venda.DATA, venda.NUMNOTA, venda.CODEMPRESA, venda.NUMCUPOM FROM MOVENDA venda\n" +
                             "JOIN CLIENTE cli ON venda.CODCLI = cli.CODCLI\n" +
                             "WHERE venda.NUMPED = '"+ codMovenda +"';");
-
             return this.vendasInterator(rs);
-
         }catch(Exception e){
             System.out.println(e.getMessage());
         }
         return null;
+    }
+
+    public String findVolumesByVenda(String numped){
+        Connection conn;
+        Statement stmt;
+        ResultSet rs;
+        String volumes = null;
+
+        try{
+            Class.forName("org.firebirdsql.jdbc.FBDriver");
+            String url = getUrlDb();
+            conn = DriverManager.getConnection(url, "sysdba", "masterkey");
+
+            stmt = conn.createStatement();
+            rs = stmt.executeQuery("SELECT venda.QUANTIDADEVOLUMES as VOLUMES FROM MOVENDA venda WHERE venda.NUMPED = '" + numped + "';");
+
+            while (rs.next()){
+                volumes = rs.getString("VOLUMES");
+            }
+
+        }catch(Exception e){
+            System.out.println(e.getMessage());
+        }
+
+        return volumes;
     }
 
     private ArrayList<Venda> vendasInterator(ResultSet rs){

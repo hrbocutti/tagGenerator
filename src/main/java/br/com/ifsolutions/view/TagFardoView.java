@@ -105,7 +105,9 @@ public class TagFardoView {
             );
             // if the user presses Cancel, this will be null
             fardo.put("nome", clientes.get(0).getName());
-            fardo.put("endereco", clientes.get(0).getAddress() + " - " + clientes.get(0).getCity() + "/" + clientes.get(0).getState());
+            fardo.put("logradouro", clientes.get(0).getAddress());
+            fardo.put("cidade", clientes.get(0).getCity() + "-" + clientes.get(0).getState());
+            fardo.put("cep", clientes.get(0).getCEP());
             fardo.put("volumes", quantidade);
             fardo.put("nf", numeroNf);
             fardos.add(fardo);
