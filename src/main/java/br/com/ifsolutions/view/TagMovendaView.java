@@ -145,6 +145,7 @@ public class TagMovendaView {
                 ClienteDao clienteDao = new ClienteDao();
                 ArrayList<Cliente> cliente = clienteDao.findByCodVenda(codMovenda);
 
+
                 Integer volumesCount = Integer.valueOf(volumes);
 
 
@@ -153,9 +154,8 @@ public class TagMovendaView {
 
                     HashMap<String, String> dadosFardo = new HashMap<>();
                     dadosFardo.put("nome",cliente.get(0).getName());
-                    dadosFardo.put("logradouro", cliente.get(0).getAddress());
-                    dadosFardo.put("bairro", cliente.get(0).getNeighborhood());
-                    dadosFardo.put("cidade", cliente.get(0).getCity());
+                    dadosFardo.put("logradouro", cliente.get(0).getAddress() + " - " + cliente.get(0).getNeighborhood());
+                    dadosFardo.put("cidade", cliente.get(0).getCity() + "-" + cliente.get(0).getState());
                     dadosFardo.put("cep", cliente.get(0).getCEP());
                     dadosFardo.put("nf", vendas.get(0).getNumNota());
                     dadosFardo.put("total_volume", volumes);

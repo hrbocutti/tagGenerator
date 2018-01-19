@@ -103,21 +103,27 @@ public class TagFardoView {
                     "Numero da Nota Fiscal",
                     JOptionPane.WARNING_MESSAGE
             );
-            // if the user presses Cancel, this will be null
-            fardo.put("nome", clientes.get(0).getName());
-            fardo.put("logradouro", clientes.get(0).getAddress());
-            fardo.put("cidade", clientes.get(0).getCity() + "-" + clientes.get(0).getState());
-            fardo.put("cep", clientes.get(0).getCEP());
-            fardo.put("volumes", quantidade);
-            fardo.put("nf", numeroNf);
-            fardos.add(fardo);
+
+            Integer quantidadeCount = Integer.valueOf(quantidade);
+
+            for (int count = 1; count <= quantidadeCount; count++){
+                fardo.put("nome", clientes.get(0).getName());
+                fardo.put("logradouro", clientes.get(0).getAddress() + " - " + clientes.get(0).getNeighborhood());
+                fardo.put("cidade", clientes.get(0).getCity() + "-" + clientes.get(0).getState());
+                fardo.put("cep", clientes.get(0).getCEP());
+                fardo.put("volume", String.valueOf(count));
+                fardo.put("total_volume", quantidade);
+                fardo.put("nf", numeroNf);
+                fardos.add(fardo);
+
+                JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(fardos);
+                HashMap<String, Object> parameters = new HashMap<String, Object>();
+                parameters.put("ETIQUETA", dataSource);
+
+                ReportController reportController = new ReportController();
+                reportController.reportGenerate("C:\\tagGenerator\\report\\fardo.jasper", parameters);
+
+            }
         }
-
-        JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(fardos);
-        HashMap<String, Object> parameters = new HashMap<String, Object>();
-        parameters.put("ETIQUETA", dataSource);
-
-        ReportController reportController = new ReportController();
-        reportController.reportGenerate("C:\\tagGenerator\\report\\fardo.jasper", parameters);
     }
 }

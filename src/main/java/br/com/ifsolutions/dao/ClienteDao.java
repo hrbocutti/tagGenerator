@@ -79,12 +79,13 @@ public class ClienteDao {
             conn = DriverManager.getConnection(url, "sysdba", "masterkey");
             stmt = conn.createStatement();
             rs = stmt.executeQuery("SELECT cli.* FROM CLIENTE cli JOIN MOVENDA venda ON venda.CODCLI = cli.CODCLI WHERE venda.NUMPED = '"+codVenda+"';");
-            return this.clienteInterator(rs);
+            return this.clienteInteratorFardo(rs);
         }catch (Exception e){
             System.out.println(e.getMessage());
         }
         return null;
     }
+
 
     public ArrayList<Cliente> findByIdFardo(String codCli) {
         Connection conn = null;
@@ -130,7 +131,7 @@ public class ClienteDao {
         try{
             while (rs.next()){
                 String DOCUMENTO, DOCTIPO;
-                if (!rs.getString("CNPJ").isEmpty()){
+                if (rs.getString("CNPJ") != null){
                     DOCTIPO = "CNPJ";
                     DOCUMENTO = rs.getString("CNPJ");
                 }else{
@@ -142,8 +143,12 @@ public class ClienteDao {
                 cliente.setCode(rs.getString("CODCLI"));
                 cliente.setName(rs.getString("CONJFANTASIA"));
                 cliente.setAddress(rs.getString("ENDERECO")
-                        + ", " + rs.getString("NUMEROLOGRADOURO")
-                        + " - " + rs.getString("COMPLEMENTOLOGRADOURO"));
+                        + ", " + rs.getString("NUMEROLOGRADOURO"));
+
+                if(rs.getString("COMPLEMENTOLOGRADOURO") != null){
+                    cliente.setAddress(cliente.getAddress() + "-" + rs.getString("COMPLEMENTOLOGRADOURO"));
+                }
+
                 cliente.setNeighborhood(rs.getString("BAIRRO"));
                 cliente.setCity(rs.getString("CIDADE"));
                 cliente.setState(rs.getString("ESTADO"));

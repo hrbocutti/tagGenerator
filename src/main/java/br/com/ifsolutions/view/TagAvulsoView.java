@@ -93,11 +93,33 @@ public class TagAvulsoView {
                 String nameProduct = fieldName.getText();
                 ProductDao dao = new ProductDao();
                 ArrayList<Produtos> items = dao.listByNameProduto(nameProduct);
-                if(items.isEmpty()){
+                if(items == null){
                     nameTablemodel.addRow(new String[]{"Sem Informação"});
                 }
                 for (Produtos product : items) {
-                    nameTablemodel.addRow(new String[]{product.getCodigo(),
+
+                    if(product.getCodigo() == null){
+                        continue;
+                    }
+
+                    if(product.getNome() == null){
+                        continue;
+                    }
+
+                    if(product.getOrigem() == null){
+                        continue;
+                    }
+
+                    if(product.getUnidade_medida() == null){
+                        continue;
+                    }
+
+                    if(product.getTamanho() == null){
+                        continue;
+                    }
+
+                    nameTablemodel.addRow(new String[]{
+                            product.getCodigo(),
                             product.getNome(),
                             product.getOrigem(),
                             product.getUnidade_medida(),
@@ -121,6 +143,27 @@ public class TagAvulsoView {
                 }
 
                 for (Produtos product : items) {
+
+                    if(product.getCodigo() == null){
+                        continue;
+                    }
+
+                    if(product.getNome() == null){
+                        continue;
+                    }
+
+                    if(product.getOrigem() == null){
+                        continue;
+                    }
+
+                    if(product.getUnidade_medida() == null){
+                        continue;
+                    }
+
+                    if(product.getTamanho() == null){
+                        continue;
+                    }
+
                     defaultTableModel.addRow(new String[]{product.getCodigo(),
                             product.getNome(),
                             product.getOrigem(),

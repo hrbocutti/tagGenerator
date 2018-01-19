@@ -53,7 +53,7 @@ public class ProductDao{
                     "LOCALI.DESCRICAO as ORIGEM, UN.UNIDADE, FAB.NOMEFABRICANTE TAMANHO FROM PRODUTO PROD\n" +
                     "JOIN LOCALIZACAO LOCALI ON PROD.CODLOC = LOCALI.CODLOC\n" +
                     "JOIN UNIDADE UN ON PROD.UNIDADE = UN.CODIGO\n" +
-                    "JOIN FABRICANTE FAB ON PROD.CODFABRICANTE = FAB.CODFABRICANTE WHERE PROD.CODPROD = "+ codProd +";");
+                    "JOIN FABRICANTE FAB ON PROD.CODFABRICANTE = FAB.CODFABRICANTE WHERE PROD.CODIGO = "+ codProd +";");
 
             return this.productInterator(rs);
         }catch (Exception e){
@@ -112,15 +112,27 @@ public class ProductDao{
         SettingsController settingsController = new SettingsController();
         HashMap<String, String> settings = settingsController.readSettings();
 
-        String url = "jdbc:firebirdsql:localhost/3050:";
+        StringBuilder url = null;
 
         for (Map.Entry<String,String> setting : settings.entrySet()) {
             String key = setting.getKey();
+
+            if(key.equals("server")){
+                String server = setting.getValue();
+                url = new StringBuilder("jdbc:firebirdsql:" + server + "/3050");
+            }
+
             if (key.equals("db")){
                 String value = setting.getValue();
-                url = url + value;
+                if (value != null ){
+                    assert url != null;
+                    url.append(":").append(value);
+                }
             }
+
+
         }
-        return url;
+        assert url != null;
+        return url.toString();
     }
 }
